@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="https://ryanyearsley.github.io/style.css">
+
 ## About Me
 <div align="center">
 <img  src="docs/assets/images/Yearsley_ProfilePic_Cropped.png"  width="35%" height="35%">
