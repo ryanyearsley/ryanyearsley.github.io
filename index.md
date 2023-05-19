@@ -7,6 +7,9 @@
 
 I'm a software engineer with a focus on game development. I hail from Middletown, Delaware. I have a diverse background, ranging from enterprise integration services  to virtual reality.
 
+[Games](Games.md)
+
+
 ## Demo Reel
 
 {% include youtube.html id="Kho_AvY_vMk" %}
