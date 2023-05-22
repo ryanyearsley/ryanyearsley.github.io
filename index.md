@@ -3,7 +3,7 @@
   <ul>
     <li><a href="https://ryanyearsley.github.io/Games.html">Games</a></li>
     <li><a href="#section2">About Me</a></li>
-    <li><a href="#section3">Contact Info</a></li>
+    <li><a href="https://ryanyearsley.github.io/Resume.html">Resume</a></li>
   </ul>
 </nav>
 
