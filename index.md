@@ -11,7 +11,7 @@
 
 <div class="image-container">
 <img style="float:right" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png"  width="35%" height="35%">
-<p  style=" #position: relative; #top: -50%"> I'm a software engineer with a focus on game development. I hail from Middletown, Delaware. I have a diverse background, ranging from enterprise integration services  to virtual reality. </p>
+<p> I'm a software engineer with a focus on game development. I hail from Middletown, Delaware. I have a diverse background, ranging from enterprise integration services  to virtual reality. </p>
 </div>
 
 ## Demo Reel
