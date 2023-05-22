@@ -12,6 +12,7 @@
 <div class="image-container">
 <img class="profile-picture" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png">
 <p>Hello! I'm a software engineer with a focus on game development. I have a diverse background, ranging from enterprise application software to virtual reality.
+
 I believe in the power of games to entertain, educate, and inspire, and I am dedicated to contributing my skills and creativity to the ever-evolving world of technology.</p>
 </div>
 
