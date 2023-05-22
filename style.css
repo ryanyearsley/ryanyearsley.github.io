@@ -18,7 +18,12 @@ nav li {
 nav a {
   text-decoration: none;
 }
-
+.profile-picture {
+  width: 35%;
+  height: 35%;
+  object-fit: cover;
+  border-radius: 50%;
+}
 .image-container {
   display: flex;
   align-items: center;

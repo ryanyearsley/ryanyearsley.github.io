@@ -10,7 +10,7 @@
 ## About Me
 
 <div class="image-container">
-<img style="float:right" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png"  width="35%" height="35%">
+<img class="profile-picture" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png">
 <p> I'm a software engineer with a focus on game development. I hail from Middletown, Delaware. I have a diverse background, ranging from enterprise integration services  to virtual reality. XD</p>
 
 </div>
