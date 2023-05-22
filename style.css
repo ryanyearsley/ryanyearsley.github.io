@@ -21,5 +21,9 @@ nav a {
 .image-container {
   float: left;
   margin-right: 10px;
-  align-items: center;
+}
+
+.centered-text {
+  top: 50%;
+  transform: translateY(-50%);
 }
