@@ -27,6 +27,7 @@ nav a {
 
 .image-container img {
   float: right;
+  margin: 20px;
 }
 
 .centered-text {
