@@ -21,4 +21,6 @@ nav a {
 .image-container {
   float: left;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
