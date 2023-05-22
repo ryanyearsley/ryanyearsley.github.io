@@ -19,10 +19,17 @@ nav a {
 }
 
 .image-container {
+  display: flex;
+  align-items: center;
   margin-right: 10px;
 }
 
+.image-container img {
+  float: right;
+}
+
 .centered-text {
-  top: 50%;
-  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
