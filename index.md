@@ -1,7 +1,7 @@
 <link rel="stylesheet" type="text/css" href="https://ryanyearsley.github.io/style.css">
 <nav>
   <ul>
-    <li><a href="Games.html">Games</a></li>
+    <li><a href="https://ryanyearsley.github.io/Games.html">Games</a></li>
     <li><a href="#section2">About Me</a></li>
     <li><a href="#section3">Contact Info</a></li>
   </ul>
@@ -16,11 +16,6 @@
 </div>
 
 ## Demo Reel
-
-[Games](Games.md)
-
-<a href="https://crooked-studio.itch.io/4tons">4TONS</a>
-
 
 {% include youtube.html id="Kho_AvY_vMk" %}
 
