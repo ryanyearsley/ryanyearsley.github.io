@@ -27,16 +27,9 @@ nav a {
 .image-container {
   display: flex;
   align-items: center;
-  margin-right: 10px;
 }
 
 .image-container img {
   float: right;
   margin: 20px;
-}
-
-.centered-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
