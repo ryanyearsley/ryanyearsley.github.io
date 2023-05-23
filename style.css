@@ -23,15 +23,19 @@ nav a {
   height: 35%;
   object-fit: cover;
   border-radius: 50%;
+  margin: 20px;
 }
 .image-container {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
+  align-items: center;
+  flex-basis: 200px;
+  order: 1;
 }
-
-.image-container img {
-  float: right;
-  margin: 20px;
-  flex-shrink: 0;
+.item {
+  flex: 1;
+  min-width: 100px;
+  height: 100px;
+  background-color: lightgray;
+  margin: 5px;
 }
