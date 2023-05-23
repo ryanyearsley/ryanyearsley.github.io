@@ -27,9 +27,11 @@ nav a {
 .image-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .image-container img {
   float: right;
   margin: 20px;
+  flex-shrink: 0;
 }
