@@ -9,10 +9,16 @@
 
 ## About Me
 
-<div class="image-container">
-<p class="item">>Hello! I'm a software engineer with a focus on game development. I have a diverse background, ranging from enterprise application software to virtual reality.</p>
-<p class="item">I believe in the power of games to entertain, educate, and inspire, and I am dedicated to contributing my skills and creativity to the ever-evolving world of technology.</p>
-<img class="profile-picture" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png">
+<div class="content-container">
+  <div class="flexbox-item flexbox-text">
+    <p>Hello! I'm a software engineer with a focus on game development. I have a diverse background, ranging from enterprise application software to virtual reality.
+    <br>
+    <br>
+    I believe in the power of games to entertain, educate, and inspire, and I am dedicated to contributing my skills and creativity to the ever-evolving world of technology.</p>
+  </div>
+  <div class="flexbox-item flexbox-image">
+    <img class="profile-picture" src="docs/assets/images/Yearsley_ProfilePic_Cropped.png">
+  </div>
 </div>
 
 ## Demo Reel

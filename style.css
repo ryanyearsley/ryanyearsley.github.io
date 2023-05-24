@@ -19,23 +19,30 @@ nav a {
   text-decoration: none;
 }
 .profile-picture {
-  width: 35%;
-  height: 35%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  margin: 20px;
 }
-.image-container {
+.content-container {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   flex-basis: 200px;
-  order: 1;
 }
-.item {
-  flex: 1;
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+}
+.flexbox-text{
   min-width: 100px;
-  height: 100px;
-  background-color: lightgray;
-  margin: 5px;
+  min-height: 100px;
+  flex-grow: 2;
+}
+.flexbox-image{
+  min-height:100px;
+  min-width: 100px;
+  max-height: 200px;
+  max-width: 200px;
+  flex-grow: 1;
 }
