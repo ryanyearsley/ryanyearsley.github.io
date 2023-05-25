@@ -8,12 +8,13 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
 }
 .navbar li {
-  margin: 0 10px;
+  margin: 0 30px;
 }
 .dropdown {
   position: relative;
 }
 .dropdown-menu {
+  min-width: 200px;
   display: none;
   position: absolute;
   top: 100%;
@@ -21,6 +22,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+.dropdown .dropdown-menu.collapsed {
+  display: none;
 }
 .profile-picture {
   width: 100%;
