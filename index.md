@@ -1,12 +1,19 @@
 <link rel="stylesheet" type="text/css" href="https://ryanyearsley.github.io/style.css">
 <nav>
-  <ul>
-    <li><a href="https://ryanyearsley.github.io/Games.html">Games</a></li>
-    <li><a href="#section2">About Me</a></li>
+  <ul class="navbar">
+    <li><a href="https://ryanyearsley.github.io/index.html">Home</a></li>
+    <li class="dropdown">
+      <a>Games &#9662;</a>
+      <ul class="dropdown-menu">
+        <li><a href="https://ryanyearsley.github.io/games/4TONS.html">4TONS</a></li>
+        <li><a href="https://ryanyearsley.github.io/games/Drift-Space-Zero.html">Drift Space Zero</a></li>
+        <li><a href="https://ryanyearsley.github.io/games/HELIX.html">HELIX Project</a></li>
+      </ul>
+    </li>
     <li><a href="https://ryanyearsley.github.io/Resume.html">Resume</a></li>
+    <li><a href="https://ryanyearsley.github.io/Contact.html">Contact</a></li>
   </ul>
 </nav>
-
 ## About Me
 
 <div class="content-container">
