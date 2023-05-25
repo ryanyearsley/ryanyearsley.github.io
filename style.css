@@ -14,11 +14,12 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .dropdown-menu {
-  min-width: 200px;
+  width: max-content;
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
+  transform: translateX(-40%);
 }
 .dropdown:hover .dropdown-menu {
   display: block;
