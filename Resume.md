@@ -4,11 +4,7 @@
 <body>
   <div class="container">
     <h1>Ryan Yearsley</h1>
-    <p>Software Engineer</p>
-    <div class="section">
-      <h2>Summary</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non ipsum libero. Aenean mollis sed neque sed ullamcorper.</p>
-    </div>
+    <p>Software Engineer and Game Developer</p>
     <div class="section">
       <h2>Experience</h2>
       <h3>Unity Developer, Luna Wolf Studios</h3>
