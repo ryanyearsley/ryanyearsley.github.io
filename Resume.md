@@ -16,7 +16,7 @@
         <li> Designed, developed, and delivered fully functional application within an 8-month timeline.</li>
         <li>Created a suite of unit tests to validate and regression test algorithms.</li>
         <li>Worked with a focus group to fine-tune game design for an intuitive user experience.</li>
-        <li>Technologies include: Unity, C#, Meta Quest</li>
+        <li>Technologies include: Unity, C#, GIT, Meta Quest 2</li>
       </ul>
       <h3>Unity Developer, Crooked Studio</h3>
       <p>September 2020 - August 2022</p>
