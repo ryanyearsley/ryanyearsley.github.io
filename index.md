@@ -5,11 +5,11 @@
     <li><a href="https://ryanyearsley.github.io/index.html">Home</a></li>
     <li class="dropdown">
     <a>Games</a>
-    <ul class="dropdown-menu">
-        <li><a href="https://ryanyearsley.github.io/games/4TONS.html">4TONS</a></li>
-        <li><a href="https://ryanyearsley.github.io/games/Drift-Space-Zero.html">Drift Space Zero</a></li>
-        <li><a href="https://ryanyearsley.github.io/games/HELIX.html">HELIX Project</a></li>
-    </ul>
+      <ul class="dropdown-menu">
+          <li><a href="https://ryanyearsley.github.io/games/4TONS.html">4TONS</a></li>
+          <li><a href="https://ryanyearsley.github.io/games/Drift-Space-Zero.html">Drift Space Zero</a></li>
+          <li><a href="https://ryanyearsley.github.io/games/HELIX.html">HELIX Project</a></li>
+      </ul>
     </li>
     <li><a href="https://ryanyearsley.github.io/Resume.html">Resume</a></li>
     <li><a href="https://ryanyearsley.github.io/Contact.html">Contact</a></li>
@@ -32,7 +32,3 @@
 ## Demo Reel
 
 {% include youtube.html id="Kho_AvY_vMk" %}
-
-## Contact Me
-
-E-mail: Ryan.a.Yearsley@gmail.com
