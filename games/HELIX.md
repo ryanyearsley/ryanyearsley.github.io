@@ -2,6 +2,10 @@
 
 # HELIX Project
 
+<div>
+    <img src="../docs/assets/images/HELIX_EscapeRoom1.png">
+</div>
+
 The HELIX Project is a reimagining of traditional hearing tests, leveraging the power of virtual reality to assess a player's hearing capabilities. HELIX features a rhythm game that acts as a pure tone test to determine a player's hearing thresholds at a variety of frequencies, as well as an escape room experience that simulates a digits-in-noise test to assess the player's speech perception when dealing with competing background noise.
 
 As my first delve into the Games for Health sector of game development, I was honored to work under the management of industry veteran Jeff Fisher. I learned a multitude of valuable skills that elevated my capabilities in Unity to a professional level. I also had the opportunity to work with audiologists and health care providers to ensure that HELIX met their standards and delivered accurate results.
