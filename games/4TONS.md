@@ -1,9 +1,6 @@
 <link rel="stylesheet" type="text/css" href="https://ryanyearsley.github.io/style.css">
 
 # 4TONS
-<div>
-    <img src="../docs/assets/images/4TONS_TitleScreen.png">
-</div>
 
 {% include youtube.html id="LKsWd3aCDi0" %}
 <br>
