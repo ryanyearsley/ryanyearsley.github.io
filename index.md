@@ -32,3 +32,6 @@
 ## Demo Reel
 
 {% include youtube.html id="Kho_AvY_vMk" %}
+
+## Latest Project
+{% include vimeo.html id="1067402398" %}
