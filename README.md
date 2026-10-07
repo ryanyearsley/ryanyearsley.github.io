@@ -12,7 +12,7 @@ Source for my game dev portfolio, built with [Jekyll](https://jekyllrb.com) and 
 | `assets/css/main.css` | The single stylesheet for the whole site |
 | `assets/js/main.js` | Mobile nav toggle + reveal-on-scroll |
 | `index.md` | Homepage: hero, project cards, reel, about |
-| `games/*.md` | One file per project — front matter drives the hero (`role`, `tools`, `links`, `youtube`/`vimeo`/`image`, `order`) |
+| `games/*.md` | One file per project; front matter drives the hero (`role`, `tools`, `links`, `youtube`/`vimeo`/`image`, `order`) |
 | `Resume.md`, `Contact.md` | Standalone pages |
 | `docs/assets/` | Images and the PDF resume |
 

@@ -7,8 +7,8 @@ body_class: home
   <div class="wrap hero-grid">
     <div>
       <span class="chip">Open to game dev &amp; Unity roles</span>
-      <h1>Hi, I'm Ryan.<br>I build <span class="accent">games</span> and the systems behind them.</h1>
-      <p class="hero-lede">Software engineer turned game developer. I've shipped enterprise back-ends, a VR hearing test used in clinical trials, and a rogue-like bullet hell built from scratch in Unity.</p>
+      <h1>Software engineer<br>&amp; <span class="accent">game developer</span>.</h1>
+      <p class="hero-lede">My work spans VR training simulations, clinical research applications, enterprise back-ends, and my own indie games, specializing in Unity and C#.</p>
       <div class="btn-row" style="margin-top:0">
         <a class="btn btn-primary" href="#work">See my work <span aria-hidden="true">&darr;</span></a>
         <a class="btn btn-ghost" href="{{ '/Resume.html' | relative_url }}">Resume</a>
@@ -22,7 +22,7 @@ body_class: home
     </div>
     <div class="hero-visual">
       <div class="portrait-frame">
-        <img src="{{ '/docs/assets/images/Yearsley_ProfilePic_Cropped.png' | relative_url }}" alt="Portrait of Ryan Yearsley" width="320" height="320">
+        <img src="{{ '/docs/assets/images/Yearsley_Headshot_2026.jpg' | relative_url }}" alt="Portrait of Ryan Yearsley" width="320" height="320">
       </div>
     </div>
   </div>
@@ -35,19 +35,31 @@ body_class: home
         <p class="eyebrow">Selected work</p>
         <h2>Projects</h2>
       </div>
-      <p>Games and interactive software I've designed, built, and shipped &mdash; from senior capstone to clinical VR.</p>
+      <p>Games and interactive software I've designed, built, and shipped, from senior capstone to clinical VR.</p>
     </div>
 
     <div class="card-grid">
       <a class="card card-featured reveal" href="{{ '/games/4TONS.html' | relative_url }}">
         <div class="card-media">
-          <img src="{{ '/docs/assets/images/4TONS_TitleScreen.png' | relative_url }}" alt="4TONS title screen: isometric pixel-art letters" loading="lazy">
+          <img src="{{ '/docs/assets/images/4TONS_Title_1080.jpg' | relative_url }}" alt="4TONS title art: isometric block letters above a dungeon floor, under a purple vortex" loading="lazy">
         </div>
         <div class="card-body">
           <span class="card-kind">Rogue-like bullet hell &middot; Solo project</span>
           <h3>4TONS <span class="arrow" aria-hidden="true">&nearr;</span></h3>
-          <p>A 2D rogue-like with puzzle elements. Procedural dungeons, a modular AI system, A* pathfinding, and online leaderboards &mdash; rewritten from the ground up with SOLID principles after my time in enterprise software.</p>
+          <p>A 2D rogue-like with puzzle elements. Procedural dungeons, a modular AI system, A* pathfinding, and online leaderboards, all rebuilt from the ground up with SOLID principles after my time in enterprise software.</p>
           <div class="tag-row"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Aseprite</span><span class="tag">Procedural gen</span></div>
+        </div>
+      </a>
+
+      <a class="card reveal" href="{{ '/games/BSAVR.html' | relative_url }}">
+        <div class="card-media">
+          <img src="{{ '/docs/assets/images/BSAVR_Thumb.jpg' | relative_url }}" alt="A soldier wearing a Meta Quest 3 headset" loading="lazy">
+        </div>
+        <div class="card-body">
+          <span class="card-kind">VR training &middot; U.S. Army</span>
+          <h3>BSA VR <span class="arrow" aria-hidden="true">&nearr;</span></h3>
+          <p>A Brigade Support Area simulation on Meta Quest 3: a 12km &times; 12km terrain, real-time instructor telemetry, and thousands of soldiers trained over a year in production.</p>
+          <div class="tag-row"><span class="tag">Unity</span><span class="tag">Meta Quest 3</span><span class="tag">Optimization</span></div>
         </div>
       </a>
 
@@ -95,8 +107,8 @@ body_class: home
         <figcaption><b>Demo reel</b>Highlights from 4TONS, HELIX, and Drift Space Zero.</figcaption>
       </figure>
       <figure class="reveal">
-        {% include vimeo.html id="1067402398" title="Latest project" %}
-        <figcaption><b>Latest project</b>A first look at what's currently on the workbench.</figcaption>
+        {% include vimeo.html id="1067402398" title="CASCOM mixed reality capabilities demo reel" %}
+        <figcaption><b>Mixed reality at CASCOM</b>The Army training tech demo reel featuring <a href="{{ '/games/BSAVR.html' | relative_url }}">BSA VR</a>.</figcaption>
       </figure>
     </div>
   </div>
@@ -110,9 +122,10 @@ body_class: home
       <p class="eyebrow">About</p>
       <h2>Engineer's discipline, designer's instincts.</h2>
       <div class="prose">
-        <p>Hello, world! I'm a software engineer with a focus on game development. My background is unusually wide &mdash; from enterprise integration services at QVC, to a clinical VR hearing test at Luna Wolf Studios, to designing, coding, and drawing every pixel of my own rogue-like.</p>
-        <p>That mix shapes how I work: I care about clean architecture, testable systems, and tooling that lets a team move fast &mdash; and I care just as much about game feel, tempo, and the moment a player decides to roll the dice one more time.</p>
-        <p>I believe in the power of games to entertain, educate, and inspire, and I'm dedicated to contributing my skills and creativity to the ever-evolving industry of technology.</p>
+        <p>I'm a software engineer with a focus on game development, and a background that runs unusually wide. With experience ranging from enterprise integration services at QVC, to a clinical VR hearing test at Luna Wolf Studios, to designing, coding, and drawing my own indie games.</p>
+        <p>Most recently, I spent two and a half years at CODE Plus building interactive training for the U.S. Army, including <a href="{{ '/games/BSAVR.html' | relative_url }}">BSA VR</a>, a Meta Quest 3 simulation that trained thousands of soldiers in its first year of production. Today I'm a software engineer at Dominion Energy, supporting the System Operations Center that keeps the electric transmission grid running. It's a different domain, but the same discipline: software that has to work.</p>
+        <p>I care about clean architecture, scalable systems, and tooling that lets a team move fast. I also care just as much about game feel, style, and finding the mechanic that entices the player to roll the dice one more time.</p>
+        <p>Games are still the throughline. Nights and weekends there's a prototype on the workbench, and the goal hasn't changed since the beginning: build things players want to come back to.</p>
       </div>
       <div class="btn-row">
         <a class="btn btn-ghost" href="{{ '/Resume.html' | relative_url }}">Full resume</a>

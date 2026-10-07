@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 4TONS
-subtitle: A 2D rogue-like bullet hell with puzzle elements — four towers, an arsenal of staves and spell gems, and a run that can go sour at any moment.
+subtitle: A 2D rogue-like bullet hell with puzzle elements. Four towers, an arsenal of staves and spell gems, and a run that can go sour at any moment.
 description: 4TONS is a rogue-like bullet hell built solo in Unity, featuring procedural dungeons, a modular AI system, and online leaderboards.
 kind: Rogue-like bullet hell
 year: 2017 – 2022
@@ -9,8 +9,8 @@ role: Design, programming, pixel art, audio
 team: Solo
 platform: PC (Windows)
 tools: [Unity, C#, Aseprite, Audacity, JSON]
-youtube: LKsWd3aCDi0
-image: /docs/assets/images/4TONS_TitleScreen.png
+youtube: Ultm1u_GZjU
+image: /docs/assets/images/4TONS_Title_1080.jpg
 order: 1
 links:
   - label: Play on itch.io

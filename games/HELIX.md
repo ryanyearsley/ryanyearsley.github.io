@@ -1,7 +1,7 @@
 ---
 layout: project
 title: HELIX Project
-subtitle: A reimagining of the hearing test — pure-tone and digits-in-noise assessments delivered as a VR rhythm game and an escape room.
+subtitle: A reimagining of the hearing test, with pure-tone and digits-in-noise assessments delivered as a VR rhythm game and an escape room.
 description: HELIX is a VR hearing assessment for Meta Quest 2, built at Luna Wolf Studios in collaboration with audiologists and healthcare providers.
 kind: VR · Games for health
 year: 2022 – 2023
@@ -10,8 +10,8 @@ team: Luna Wolf Studios
 platform: Meta Quest 2
 tools: [Unity, C#, Git, Meta Quest 2]
 image: /docs/assets/images/HELIX_EscapeRoom1.png
-image_alt: HELIX escape room — floating low-poly islands with torii gates against a starry sky
-order: 2
+image_alt: HELIX escape room with floating low-poly islands and torii gates against a starry sky
+order: 3
 ---
 
 The HELIX Project is a reimagining of traditional hearing tests, leveraging the power of virtual reality to assess a player's hearing capabilities. HELIX features a rhythm game that acts as a pure tone test to determine a player's hearing thresholds at a variety of frequencies, as well as an escape room experience that simulates a digits-in-noise test to assess the player's speech perception when dealing with competing background noise.

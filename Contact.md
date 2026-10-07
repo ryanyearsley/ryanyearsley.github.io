@@ -8,7 +8,7 @@ description: Get in touch with Ryan Yearsley about game development, Unity work,
   <div class="wrap">
     <p class="eyebrow">Contact</p>
     <h1>Let's make something.</h1>
-    <p class="lede">Have a project, a role, or just want to talk about game design? Drop me a line — I read everything.</p>
+    <p class="lede">Have a project, a role, or just want to talk about game design? Drop me a line. I read everything.</p>
   </div>
 </section>
 
@@ -48,7 +48,7 @@ description: Get in touch with Ryan Yearsley about game development, Unity work,
         <textarea id="message" name="message" placeholder="What are you working on?" required></textarea>
       </div>
       <button class="btn btn-primary" type="submit">Send message <span aria-hidden="true">&rarr;</span></button>
-      <p class="form-note">Sent via Formspree. No newsletters, no spam — just a reply from me.</p>
+      <p class="form-note">Sent via Formspree. No newsletters, no spam, just a reply from me.</p>
     </form>
   </div>
 </div>
