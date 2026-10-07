@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "C:\\Users\\ryana\\AppData\\Local\\Temp\\claude\\D--git-ryanyearsley-github-io\\adf9be28-6aa3-4f66-80d2-021b542f49b5\\scratchpad\\site"],
+      "port": 8765
+    }
+  ]
+}

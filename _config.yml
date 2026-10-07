@@ -1,1 +1,27 @@
-theme: jekyll-theme-hacker
+title: Ryan Yearsley
+tagline: Game Developer & Software Engineer
+description: Portfolio of Ryan Yearsley — Unity developer and software engineer building games, VR experiences, and the systems behind them.
+url: https://ryanyearsley.github.io
+baseurl: ""
+author: Ryan Yearsley
+email: ryan.crookedstudio@gmail.com
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "games"
+    values:
+      layout: project
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .claude/

@@ -1,64 +1,106 @@
-<link rel="stylesheet" type="text/css" href="https://ryanyearsley.github.io/resume-style.css">
+---
+layout: default
+title: Resume
+description: Ryan Yearsley — resume. Unity developer and software engineer with experience in VR, game systems, and enterprise back-end services.
+---
 
-# Resume
-<body>
-  <div class="container">
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Resume</p>
     <h1>Ryan Yearsley</h1>
-    <p>Software Engineer and Game Developer</p>
-    <div class="section">
-      <h2>Experience</h2>
-      <h3>Unity Developer, Luna Wolf Studios</h3>
-      <p>August 2022 – April 2023</p>
-      <ul>
-        <li>Collaborated with healthcare providers and audiologists to develop a hearing test in VR using Meta Quest 2.</li>
-        <li>Optimized VR applications for performance and user experience.</li>
-        <li>Vetted, procured, and integrated Unity assets and frameworks to accelerate development.</li>
-        <li> Designed, developed, and delivered fully functional application within an 8-month timeline.</li>
-        <li>Created a suite of unit tests to validate and regression test algorithms.</li>
-        <li>Worked with a focus group to fine-tune game design for an intuitive user experience.</li>
-        <li>Technologies include: Unity, C#, GIT, Meta Quest 2</li>
-      </ul>
-      <h3>Unity Developer, Crooked Studio</h3>
-      <p>September 2020 - August 2022</p>
-      <ul>
-        <li>Designed and developed a rogue-like action RPG called 4TONS.</li>
-        <li>Developed, tested, and integrated complex game systems, including procedural dungeon generation, puzzle elements, and a modular and scalable AI system.</li>
-        <li>Created art assets, including pixel art, sound effects, and pixel-perfect fonts.</li>
-        <li>Technologies include: Unity, C#, Aseprite, Audacity</li>
-      </ul> 
-      <h3>Software Engineer, QVC</h3>
-      <p>January 2018 – September 2020</p>
-      <ul>
-        <li>Developed and maintained back-end integration services that were responsible for product, employee, and order data.</li>
-        <li>Conducted code reviews and debugging to ensure high-quality code and optimal system performance.</li>
-        <li>Utilized a CI/CD pipeline to deploy applications into a containerized environment.</li>
-        <li> Advocated for Agile methodologies and tools, balancing business needs with software development practices.</li>
-        <li>Technologies include: Java, Spring Framework, Tomcat, Docker, MS SQL Server, Linux, Git</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Education</h2>
-      <h3>Bachelor of Science in Game Design and Development</h3>
-      <p>Wilmington University, Sep 2013 – Aug 2017</p>
-      <p>GPA: 3.51</p>
-    </div>
-    <div class="section">
-      <h2>Skills</h2>
-      <ul>
-        <li>Unity</li>
-        <li>C#</li>
-        <li>Git</li>
-        <li>Virtual Reality</li>
-        <li>Java</li>
-        <li>Spring</li>
-        <li>Docker</li>
-        <li>MS SQL Server</li>
-      </ul>
-    </div>
-    <div class="section">
-      <h2>Contact</h2>
-      <p>Email: Ryan.A.Yearsley@gmail.com</p>
-      <p>Phone: (302) 743-0017</p>
-    </div>
+    <p class="lede">Software engineer and game developer. Unity and C# by day, pixel art and level design by night — with a foundation in enterprise back-end engineering.</p>
   </div>
-</body>
+</section>
+
+<div class="wrap resume-layout">
+  <div>
+    <section class="resume-section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <article class="job">
+          <div class="job-head">
+            <h3>Unity Developer <span class="org">· Luna Wolf Studios</span></h3>
+            <time>Aug 2022 – Apr 2023</time>
+          </div>
+          <ul>
+            <li>Collaborated with healthcare providers and audiologists to develop a hearing test in VR using Meta Quest 2.</li>
+            <li>Optimized VR applications for performance and user experience.</li>
+            <li>Vetted, procured, and integrated Unity assets and frameworks to accelerate development.</li>
+            <li>Designed, developed, and delivered a fully functional application within an 8-month timeline.</li>
+            <li>Created a suite of unit tests to validate and regression-test algorithms.</li>
+            <li>Worked with a focus group to fine-tune game design for an intuitive user experience.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Git</span><span class="tag">Meta Quest 2</span></div>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Unity Developer <span class="org">· Crooked Studio</span></h3>
+            <time>Sep 2020 – Aug 2022</time>
+          </div>
+          <ul>
+            <li>Designed and developed a rogue-like action RPG called <a href="{{ '/games/4TONS.html' | relative_url }}">4TONS</a>.</li>
+            <li>Developed, tested, and integrated complex game systems, including procedural dungeon generation, puzzle elements, and a modular and scalable AI system.</li>
+            <li>Created art assets, including pixel art, sound effects, and pixel-perfect fonts.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Aseprite</span><span class="tag">Audacity</span></div>
+        </article>
+
+        <article class="job">
+          <div class="job-head">
+            <h3>Software Engineer <span class="org">· QVC</span></h3>
+            <time>Jan 2018 – Sep 2020</time>
+          </div>
+          <ul>
+            <li>Developed and maintained back-end integration services responsible for product, employee, and order data.</li>
+            <li>Conducted code reviews and debugging to ensure high-quality code and optimal system performance.</li>
+            <li>Utilized a CI/CD pipeline to deploy applications into a containerized environment.</li>
+            <li>Advocated for Agile methodologies and tools, balancing business needs with software development practices.</li>
+          </ul>
+          <div class="tag-row"><span class="tag">Java</span><span class="tag">Spring</span><span class="tag">Tomcat</span><span class="tag">Docker</span><span class="tag">MS SQL Server</span><span class="tag">Linux</span><span class="tag">Git</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="resume-section">
+      <h2>Education</h2>
+      <div class="timeline">
+        <article class="job">
+          <div class="job-head">
+            <h3>B.S. Game Design and Development <span class="org">· Wilmington University</span></h3>
+            <time>Sep 2013 – Aug 2017</time>
+          </div>
+          <ul>
+            <li>GPA 3.51 · Senior capstone became <a href="{{ '/games/4TONS.html' | relative_url }}">4TONS</a>.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </div>
+
+  <aside>
+    <div class="side-card">
+      <h2 class="eyebrow" style="color:var(--text-dim)">Download</h2>
+      <p><b>PDF resume</b><br>Last updated May 2023</p>
+      <a class="btn btn-primary" href="{{ '/docs/assets/RyanYearsley_Resume_2023-05-16.pdf' | relative_url }}" target="_blank" rel="noopener">Open PDF <span aria-hidden="true">&nearr;</span></a>
+    </div>
+    <div class="side-card">
+      <h2 class="eyebrow" style="color:var(--text-dim)">Skills</h2>
+      <ul class="plain">
+        <li>Unity <span>engine</span></li>
+        <li>C# <span>language</span></li>
+        <li>Virtual Reality <span>platform</span></li>
+        <li>Git <span>workflow</span></li>
+        <li>Java / Spring <span>back-end</span></li>
+        <li>Docker <span>infra</span></li>
+        <li>MS SQL Server <span>data</span></li>
+      </ul>
+    </div>
+    <div class="side-card">
+      <h2 class="eyebrow" style="color:var(--text-dim)">Contact</h2>
+      <p><b>Email</b><br><a href="mailto:Ryan.A.Yearsley@gmail.com">Ryan.A.Yearsley@gmail.com</a></p>
+      <p><b>Phone</b><br><a href="tel:+13027430017">(302) 743-0017</a></p>
+      <p><b>GitHub</b><br><a href="https://github.com/ryanyearsley" target="_blank" rel="noopener">github.com/ryanyearsley</a></p>
+    </div>
+  </aside>
+</div>

@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<article class="project">
+  <header class="project-hero">
+    <div class="wrap">
+      <a class="eyebrow-link" href="{{ '/#work' | relative_url }}">&larr; All projects</a>
+      <p class="eyebrow">{{ page.kind }}{% if page.year %} <span class="dot"></span> {{ page.year }}{% endif %}</p>
+      <h1 class="project-title">{{ page.title }}</h1>
+      {% if page.subtitle %}<p class="project-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+      <dl class="project-meta">
+        {% if page.role %}<div><dt>Role</dt><dd>{{ page.role }}</dd></div>{% endif %}
+        {% if page.team %}<div><dt>Team</dt><dd>{{ page.team }}</dd></div>{% endif %}
+        {% if page.platform %}<div><dt>Platform</dt><dd>{{ page.platform }}</dd></div>{% endif %}
+        {% if page.tools %}<div><dt>Tools</dt><dd>{{ page.tools | join: ", " }}</dd></div>{% endif %}
+      </dl>
+
+      {% if page.links %}
+      <div class="btn-row">
+        {% for link in page.links %}
+        <a class="btn {% if forloop.first %}btn-primary{% else %}btn-ghost{% endif %}" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }} <span aria-hidden="true">&nearr;</span></a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="wrap">
+    {% if page.youtube %}
+      <div class="project-media">{% include youtube.html id=page.youtube %}</div>
+    {% elsif page.vimeo %}
+      <div class="project-media">{% include vimeo.html id=page.vimeo %}</div>
+    {% elsif page.image %}
+      <figure class="project-media">
+        <img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title }}">
+      </figure>
+    {% endif %}
+
+    <div class="prose project-body">
+      {{ content }}
+    </div>
+
+    <nav class="project-pager" aria-label="More projects">
+      {% assign projects = site.pages | where_exp: "p", "p.layout == 'project'" | where_exp: "p", "p.hidden != true" | sort: "order" %}
+      {% for p in projects %}{% if p.url == page.url %}
+        {% assign idx = forloop.index0 %}
+      {% endif %}{% endfor %}
+      {% assign next_idx = idx | plus: 1 %}
+      {% if next_idx >= projects.size %}{% assign next_idx = 0 %}{% endif %}
+      {% assign next = projects[next_idx] %}
+      {% if next and next.url != page.url %}
+      <a class="pager-card" href="{{ next.url | relative_url }}">
+        <span class="eyebrow">Next project</span>
+        <span class="pager-title">{{ next.title }} <span aria-hidden="true">&rarr;</span></span>
+      </a>
+      {% endif %}
+    </nav>
+  </div>
+</article>
